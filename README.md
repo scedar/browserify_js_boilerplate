@@ -4,7 +4,9 @@ This is a very basic and simple js project using browserify for bundling.
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Many of the boilerplate inspirations were drawn from this [Getting started with Browserify:Bring Node modules to the browser with Browserify](https://advancedweb.hu/2017/01/31/browserify/) and [Getting Started with Browserify](https://scotch.io/tutorials/getting-started-with-browserify)
+Many of the boilerplate inspirations were drawn from these:
+* [Getting started with Browserify:Bring Node modules to the browser with Browserify](https://advancedweb.hu/2017/01/31/browserify/) 
+* [Getting Started with Browserify](https://scotch.io/tutorials/getting-started-with-browserify)
 
 ### Prerequisites
 * npm
