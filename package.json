@@ -1,0 +1,29 @@
+{
+  "name": "browserify_js_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Js Project using Browserify",
+  "main": "src/app.js",
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "watchify": "^3.11.0"
+  },
+  "browserify": {
+    "transform": [
+      "scssify"
+    ]
+  },
+  "devDependencies": {
+    "browserify": "16.2.2",
+    "scssify": "2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/app.js -o tmp/bundle.js",
+    "dev": "watchify src/app.js --debug -v -o tmp/bundle.js"
+  },
+  "keywords": [
+    "browserify"
+  ],
+  "author": "ochomoswill",
+  "license": "ISC"
+}
