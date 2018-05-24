@@ -2,6 +2,10 @@
   "name": "browserify_js_boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate Js Project using Browserify",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/scedar/browserify_js_boilerplate.git"
+  },
   "main": "src/app.js",
   "dependencies": {
     "lodash": "^4.17.10",
